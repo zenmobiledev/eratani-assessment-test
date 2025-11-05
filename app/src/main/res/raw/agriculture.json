@@ -181,7 +181,7 @@
         "stok_keluar": 18
       }
     ],
-    "stok_akhir": 222
+    "stok_akhir": 223
   },
   {
     "id": 9,
@@ -227,7 +227,7 @@
         "stok_keluar": 29
       }
     ],
-    "stok_akhir": 446
+    "stok_akhir": 426
   },
   {
     "id": 11,
@@ -342,6 +342,6 @@
         "stok_keluar": 61
       }
     ],
-    "stok_akhir": 273
+    "stok_akhir": 173
   }
 ]

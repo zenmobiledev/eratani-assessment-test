@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.isTraversalGroup
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.traversalIndex
 import androidx.compose.ui.unit.dp
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -37,7 +38,7 @@ fun Material3SearchBarComponent(
         SearchBar(
             modifier = Modifier
                 .align(alignment = Alignment.TopCenter)
-                .fillMaxWidth(),
+                .semantics { traversalIndex = 0f },
             inputField = {
                 SearchBarDefaults.InputField(
                     query = query,
@@ -48,9 +49,6 @@ fun Material3SearchBarComponent(
                             onExpandedChange(false)
                         }
                     },
-                    expanded = expanded,
-                    onExpandedChange = onExpandedChange,
-                    placeholder = { Text(text = "Cari nama barang...") },
                     leadingIcon = {
                         if (!expanded) {
                             Icon(
@@ -83,7 +81,10 @@ fun Material3SearchBarComponent(
                                 )
                             }
                         }
-                    }
+                    },
+                    expanded = expanded,
+                    onExpandedChange = onExpandedChange,
+                    placeholder = { Text(text = "Cari nama barang...") },
                 )
             },
             expanded = expanded,
