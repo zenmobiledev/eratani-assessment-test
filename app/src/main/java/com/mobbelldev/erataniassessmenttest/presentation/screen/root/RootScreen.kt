@@ -12,7 +12,11 @@ import androidx.compose.ui.unit.dp
 import com.mobbelldev.erataniassessmenttest.ui.theme.ErataniAssessmentTestTheme
 
 @Composable
-fun RootScreen(modifier: Modifier = Modifier, moveToWordSearchScreen: () -> Unit) {
+fun RootScreen(
+    modifier: Modifier = Modifier,
+    moveToWordSearchScreen: () -> Unit,
+    moveToDataProcessingScreen: () -> Unit,
+) {
     Column(
         modifier = modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -40,7 +44,7 @@ fun RootScreen(modifier: Modifier = Modifier, moveToWordSearchScreen: () -> Unit
                     horizontal = 32.dp,
                     vertical = 8.dp
                 ),
-            onClick = {},
+            onClick = { moveToDataProcessingScreen() },
             shape = MaterialTheme.shapes.small
         ) {
             Text(text = "Pemrosesan data")
@@ -81,7 +85,8 @@ fun RootScreen(modifier: Modifier = Modifier, moveToWordSearchScreen: () -> Unit
 private fun RootScreenPreview() {
     ErataniAssessmentTestTheme {
         RootScreen(
-            moveToWordSearchScreen = {}
+            moveToWordSearchScreen = {},
+            moveToDataProcessingScreen = {}
         )
     }
 }

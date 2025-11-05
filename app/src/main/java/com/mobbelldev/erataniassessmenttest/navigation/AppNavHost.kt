@@ -12,6 +12,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.mobbelldev.erataniassessmenttest.presentation.component.TopAppBarComponent
+import com.mobbelldev.erataniassessmenttest.presentation.screen.data_processing.DataProcessingScreen
 import com.mobbelldev.erataniassessmenttest.presentation.screen.root.RootScreen
 import com.mobbelldev.erataniassessmenttest.presentation.screen.word_search.WordSearchScreen
 
@@ -26,6 +27,7 @@ fun AppNavHost(
     val title = when (currentDestination) {
         Screen.Root::class.qualifiedName -> "Eratani Assessment Test"
         Screen.WordSearch::class.qualifiedName -> "Pencarian Kata"
+        Screen.DataProcessing::class.qualifiedName -> "Pemrosesan Data"
         else -> ""
     }
 
@@ -48,12 +50,19 @@ fun AppNavHost(
                 RootScreen(
                     moveToWordSearchScreen = {
                         navController.navigate(route = Screen.WordSearch)
+                    },
+                    moveToDataProcessingScreen = {
+                        navController.navigate(route = Screen.DataProcessing)
                     }
                 )
             }
 
             composable<Screen.WordSearch> {
                 WordSearchScreen()
+            }
+
+            composable<Screen.DataProcessing> {
+                DataProcessingScreen()
             }
         }
     }

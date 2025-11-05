@@ -1,0 +1,347 @@
+[
+  {
+    "id": 1,
+    "nama_barang": "Jagung",
+    "stok_awal": 134,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 46,
+        "stok_keluar": 42
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 135,
+        "stok_keluar": 58
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 155,
+        "stok_keluar": 3
+      }
+    ],
+    "stok_akhir": 367
+  },
+  {
+    "id": 2,
+    "nama_barang": "Kentang",
+    "stok_awal": 45,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 144,
+        "stok_keluar": 53
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 200,
+        "stok_keluar": 52
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 91,
+        "stok_keluar": 62
+      }
+    ],
+    "stok_akhir": 313
+  },
+  {
+    "id": 3,
+    "nama_barang": "Singkong",
+    "stok_awal": 176,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 155,
+        "stok_keluar": 19
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 182,
+        "stok_keluar": 22
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 33,
+        "stok_keluar": 16
+      }
+    ],
+    "stok_akhir": 489
+  },
+  {
+    "id": 4,
+    "nama_barang": "Ubi Jalar",
+    "stok_awal": 73,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 58,
+        "stok_keluar": 65
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 116,
+        "stok_keluar": 24
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 48,
+        "stok_keluar": 25
+      }
+    ],
+    "stok_akhir": 181
+  },
+  {
+    "id": 5,
+    "nama_barang": "Beras",
+    "stok_awal": 38,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 146,
+        "stok_keluar": 65
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 161,
+        "stok_keluar": 35
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 200,
+        "stok_keluar": 61
+      }
+    ],
+    "stok_akhir": 384
+  },
+  {
+    "id": 6,
+    "nama_barang": "Daun Bawang",
+    "stok_awal": 35,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 82,
+        "stok_keluar": 43
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 124,
+        "stok_keluar": 18
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 38,
+        "stok_keluar": 22
+      }
+    ],
+    "stok_akhir": 196
+  },
+  {
+    "id": 7,
+    "nama_barang": "Bawang Bombay",
+    "stok_awal": 40,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 34,
+        "stok_keluar": 78
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 180,
+        "stok_keluar": 17
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 165,
+        "stok_keluar": 62
+      }
+    ],
+    "stok_akhir": 262
+  },
+  {
+    "id": 8,
+    "nama_barang": "Bawang Merah",
+    "stok_awal": 22,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 77,
+        "stok_keluar": 76
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 143,
+        "stok_keluar": 4
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 79,
+        "stok_keluar": 18
+      }
+    ],
+    "stok_akhir": 222
+  },
+  {
+    "id": 9,
+    "nama_barang": "Bawang Putih",
+    "stok_awal": 83,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 125,
+        "stok_keluar": 24
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 114,
+        "stok_keluar": 10
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 51,
+        "stok_keluar": 15
+      }
+    ],
+    "stok_akhir": 324
+  },
+  {
+    "id": 10,
+    "nama_barang": "Cabai Merah",
+    "stok_awal": 187,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 28,
+        "stok_keluar": 34
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 121,
+        "stok_keluar": 15
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 188,
+        "stok_keluar": 29
+      }
+    ],
+    "stok_akhir": 446
+  },
+  {
+    "id": 11,
+    "nama_barang": "Cabai Rawit",
+    "stok_awal": 50,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 176,
+        "stok_keluar": 75
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 66,
+        "stok_keluar": 36
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 162,
+        "stok_keluar": 46
+      }
+    ],
+    "stok_akhir": 297
+  },
+  {
+    "id": 12,
+    "nama_barang": "Cabai Hijau",
+    "stok_awal": 188,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 65,
+        "stok_keluar": 64
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 62,
+        "stok_keluar": 68
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 194,
+        "stok_keluar": 41
+      }
+    ],
+    "stok_akhir": 336
+  },
+  {
+    "id": 13,
+    "nama_barang": "Kacang Tanah",
+    "stok_awal": 95,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 171,
+        "stok_keluar": 65
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 77,
+        "stok_keluar": 45
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 35,
+        "stok_keluar": 64
+      }
+    ],
+    "stok_akhir": 204
+  },
+  {
+    "id": 14,
+    "nama_barang": "Kedelai",
+    "stok_awal": 132,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 126,
+        "stok_keluar": 26
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 41,
+        "stok_keluar": 74
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 197,
+        "stok_keluar": 75
+      }
+    ],
+    "stok_akhir": 321
+  },
+  {
+    "id": 15,
+    "nama_barang": "Kacang Hijau",
+    "stok_awal": 42,
+    "transaksi": [
+      {
+        "tanggal": "01/11/2025",
+        "stok_masuk": 45,
+        "stok_keluar": 30
+      },
+      {
+        "tanggal": "02/11/2025",
+        "stok_masuk": 122,
+        "stok_keluar": 55
+      },
+      {
+        "tanggal": "03/11/2025",
+        "stok_masuk": 110,
+        "stok_keluar": 61
+      }
+    ],
+    "stok_akhir": 273
+  }
+]

@@ -9,4 +9,7 @@ sealed class Screen {
 
     @Serializable
     object WordSearch : Screen()
+
+    @Serializable
+    object DataProcessing : Screen()
 }
