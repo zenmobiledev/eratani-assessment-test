@@ -11,10 +11,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.mobbelldev.erataniassessmenttest.presentation.component.TopAppBarComponent
-import com.mobbelldev.erataniassessmenttest.presentation.screen.data_processing.DataProcessingScreen
-import com.mobbelldev.erataniassessmenttest.presentation.screen.root.RootScreen
-import com.mobbelldev.erataniassessmenttest.presentation.screen.word_search.WordSearchScreen
+import com.mobbelldev.erataniassessmenttest.ui.component.TopAppBarComponent
+import com.mobbelldev.erataniassessmenttest.ui.screen.data_processing.DataProcessingScreen
+import com.mobbelldev.erataniassessmenttest.ui.screen.root.RootScreen
+import com.mobbelldev.erataniassessmenttest.ui.screen.word_search.WordSearchScreen
 
 @Composable
 fun AppNavHost(

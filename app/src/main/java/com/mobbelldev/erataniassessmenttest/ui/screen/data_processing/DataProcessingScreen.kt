@@ -1,4 +1,4 @@
-package com.mobbelldev.erataniassessmenttest.presentation.screen.data_processing
+package com.mobbelldev.erataniassessmenttest.ui.screen.data_processing
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -13,9 +13,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.mobbelldev.erataniassessmenttest.presentation.screen.data_processing.model.Item
-import com.mobbelldev.erataniassessmenttest.presentation.screen.data_processing.repository.AgricultureRepository
-import com.mobbelldev.erataniassessmenttest.presentation.screen.data_processing.viewmodel.DataProcessingViewModel
+import com.mobbelldev.erataniassessmenttest.ui.screen.data_processing.model.Item
+import com.mobbelldev.erataniassessmenttest.ui.screen.data_processing.repository.AgricultureRepository
+import com.mobbelldev.erataniassessmenttest.ui.screen.data_processing.viewmodel.DataProcessingViewModel
 
 @Composable
 fun DataProcessingScreen(modifier: Modifier = Modifier) {
@@ -44,7 +44,6 @@ private fun ItemCard(
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(text = "Nama Barang: ${data.nama_barang}")
-            Spacer(modifier = Modifier.height(4.dp))
             Text(text = "Stok Awal: ${data.stok_awal}")
             Text(text = "Tanggal Transaksi:")
             data.transaksi.forEach {

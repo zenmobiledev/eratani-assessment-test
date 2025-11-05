@@ -1,4 +1,4 @@
-package com.mobbelldev.erataniassessmenttest.presentation.screen.data_processing.model
+package com.mobbelldev.erataniassessmenttest.ui.screen.data_processing.model
 
 import kotlinx.serialization.Serializable
 

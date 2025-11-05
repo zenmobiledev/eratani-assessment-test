@@ -1,9 +1,9 @@
-package com.mobbelldev.erataniassessmenttest.presentation.screen.word_search
+package com.mobbelldev.erataniassessmenttest.ui.screen.word_search
 
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
-import com.mobbelldev.erataniassessmenttest.presentation.component.Material3SearchBarComponent
+import com.mobbelldev.erataniassessmenttest.ui.component.Material3SearchBarComponent
 
 @Composable
 fun WordSearchScreen(modifier: Modifier = Modifier) {
