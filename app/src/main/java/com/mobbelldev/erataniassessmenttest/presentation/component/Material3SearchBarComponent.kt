@@ -2,6 +2,7 @@ package com.mobbelldev.erataniassessmenttest.presentation.component
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -123,10 +124,9 @@ fun Material3SearchBarComponent(
         searchResult?.let { data ->
             Column(
                 modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 100.dp)
-                    .align(alignment = Alignment.TopCenter),
-                horizontalAlignment = Alignment.CenterHorizontally
+                    .fillMaxSize(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
             ) {
                 when (data) {
                     "" -> {
