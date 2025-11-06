@@ -16,6 +16,7 @@ fun RootScreen(
     modifier: Modifier = Modifier,
     moveToWordSearchScreen: () -> Unit,
     moveToDataProcessingScreen: () -> Unit,
+    moveToAnimation: () -> Unit,
 ) {
     Column(
         modifier = modifier.fillMaxSize(),
@@ -58,7 +59,7 @@ fun RootScreen(
                     horizontal = 32.dp,
                     vertical = 8.dp
                 ),
-            onClick = {},
+            onClick = { moveToAnimation() },
             shape = MaterialTheme.shapes.small
         ) {
             Text(text = "Animasi")
@@ -86,7 +87,8 @@ private fun RootScreenPreview() {
     ErataniAssessmentTestTheme {
         RootScreen(
             moveToWordSearchScreen = {},
-            moveToDataProcessingScreen = {}
+            moveToDataProcessingScreen = {},
+            moveToAnimation = {},
         )
     }
 }

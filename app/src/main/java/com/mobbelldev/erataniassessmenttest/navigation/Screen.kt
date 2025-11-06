@@ -12,4 +12,7 @@ sealed class Screen {
 
     @Serializable
     object DataProcessing : Screen()
+
+    @Serializable
+    object Animation : Screen()
 }
