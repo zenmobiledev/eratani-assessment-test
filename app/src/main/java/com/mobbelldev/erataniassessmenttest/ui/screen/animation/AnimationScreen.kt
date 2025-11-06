@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun AnimationScreen(modifier: Modifier = Modifier) {
-    var bpm by remember { mutableStateOf(60f) }
+    var bpm by remember { mutableFloatStateOf(60f) }
 
     key(bpm) {
         val durationPerBeat = (60_000 / bpm).toInt()
