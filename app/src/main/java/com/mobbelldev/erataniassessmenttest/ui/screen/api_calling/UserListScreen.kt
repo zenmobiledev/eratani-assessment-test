@@ -53,10 +53,15 @@ fun UserListScreen(modifier: Modifier = Modifier) {
             CircularProgressIndicator()
         }
 
-        error != null -> Text(
-            "Error: $error",
-            color = MaterialTheme.colorScheme.error
-        )
+        error != null -> Box(
+            modifier = Modifier.fillMaxSize(),
+            Alignment.Center
+        ) {
+            Text(
+                "Error: $error",
+                color = MaterialTheme.colorScheme.error
+            )
+        }
 
         else -> {
             // https://stackoverflow.com/questions/68143308/how-do-i-create-a-table-in-jetpack-compose
