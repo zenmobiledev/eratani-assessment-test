@@ -17,6 +17,7 @@ fun RootScreen(
     moveToWordSearchScreen: () -> Unit,
     moveToDataProcessingScreen: () -> Unit,
     moveToAnimation: () -> Unit,
+    moveToAPICalling: () -> Unit
 ) {
     Column(
         modifier = modifier.fillMaxSize(),
@@ -73,7 +74,7 @@ fun RootScreen(
                     horizontal = 32.dp,
                     vertical = 8.dp
                 ),
-            onClick = {},
+            onClick = { moveToAPICalling() },
             shape = MaterialTheme.shapes.small
         ) {
             Text(text = "API Calling")
@@ -89,6 +90,7 @@ private fun RootScreenPreview() {
             moveToWordSearchScreen = {},
             moveToDataProcessingScreen = {},
             moveToAnimation = {},
+            moveToAPICalling = {},
         )
     }
 }

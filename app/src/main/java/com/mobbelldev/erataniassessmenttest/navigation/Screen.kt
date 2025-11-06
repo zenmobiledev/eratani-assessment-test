@@ -15,4 +15,13 @@ sealed class Screen {
 
     @Serializable
     object Animation : Screen()
+
+    @Serializable
+    object APICalling : Screen()
+
+    @Serializable
+    object ListUser : Screen()
+
+    @Serializable
+    object RegisterUser : Screen()
 }
